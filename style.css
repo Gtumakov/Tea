@@ -1,0 +1,40 @@
+/* HEADER SECTION */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+
+
+  /*header properties from design spec*/
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  background-color: black;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo img {
+  height: 50px;
+  padding: 10px;
+}
+.top-nav {
+  color: white;
+  text-decoration: underline;
+}
+nav {
+  margin-right: 15px;
+}
+nav span {
+  padding: 20px 10px;
+}
+/* HEADER SECTION ENDS */
