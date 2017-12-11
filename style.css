@@ -1,3 +1,13 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+}
+
 /* HEADER SECTION */
 header {
   display: flex;
@@ -8,15 +18,8 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
-
-
-  /*header properties from design spec*/
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
-  text-align: center;
-  background-color: black;
+  margin: 0px;
+  z-index: 5;
 }
 #logo {
   display: flex;
@@ -38,3 +41,37 @@ nav span {
   padding: 20px 10px;
 }
 /* HEADER SECTION ENDS */
+
+/* MISSION DIVS SECTION BEGINS */
+h2,
+h4 {
+  color: white;
+}
+.mission-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+.mission-image {
+
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  flex-basis: 1200px;
+  height: 700px;
+
+}
+.mission-child {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 1200px;
+}
+.mission-child h2, h4 {
+  margin: 8px 0px;
+}
+/* MISSION DIVS SECTION ENDS */
