@@ -52,7 +52,7 @@ h4 {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 69px;
+  padding-top: 61px;
 }
 .mission-image {
 
@@ -80,7 +80,7 @@ h4 {
 /* STORE ITEMS SECTION BEGINS */
 .store-list {
   position: relative;
-  margin-top: 80px;
+  padding-top: 70px;
   width: 1000px;
 
 }
@@ -106,4 +106,49 @@ h4 {
 .center {
   display: flex;
   justify-content: center;
+}
+/* STORE ITEMS SECTION ENDS */
+
+/* LOCATIONS SECTION BEGINS */
+#loc-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.loc-container {
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loc-back {
+  display: flex;
+  justify-content: center;
+}
+.loc-items {
+  width: 300px;
+  opacity: 1;
+  margin: 20px 15px;
+  background-color: black;
+}
+.loc-container h2 {
+  margin: 15px 0px;
+}
+p {
+  padding: 10px;
+}
+/* LOCATIONS SECTION ENDS */
+
+/* FOOTER BEGINS */
+.contact {
+  height: 200px;
+}
+#copyright {
+  text-align: left;
+  margin-left: 20px;
 }
